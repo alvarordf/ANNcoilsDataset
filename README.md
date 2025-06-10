@@ -79,7 +79,7 @@ $\eta_{max} = \frac{k^2Q_1Q_2}{(1+\sqrt{1+k^2Q_1Q_2})^2}$
 This repository includes two versions of the dataset: a .csv file and a .mat file. The .mat file includes a table (ANNCoilsFEA) and three arrays:
 - **In**: includes the 10 geometrical variables that represent the inputs of the ANN: (W1, W2, S1, S2, N1, N2, Dext1, Dext2, Nlay1, Nlay2).
 - **Out**: includes the 5 electrical variables that represent the outputs of the ANN: (L1, L2, R1, R2, k).
-- **Out_norm**: includes the 5 electrical variables that represent the outputs of the ANN. These variables are preprocessed to enhance the regression capabilities of the ANN: (log10(L1), log10(L2), log10(R1), log10(R2), k)
+- **Out_norm**: includes the 5 electrical variables that represent the outputs of the ANN. These variables are preprocessed to enhance the regression capabilities of the ANN: (log10(L1), log10(L2), log10(R1), log10(R2), 10.*k)
 The ANN can be created and trained using the *Neural Net Fitting* application of *MATLAB*, either by its graphical GUI or generating the training code. 
 
 ## Additional information
