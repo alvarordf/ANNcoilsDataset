@@ -1,4 +1,4 @@
-# ANNcoils_dataset
+# ANNcoilsDataset
 Electromagnetic FEA simulations of coupled coils for IMDs from the article **Neural Network-Based Design of Wireless Power Transfer Systems for Implantable Medical Devices** (Álvaro Rodríguez Fuentes, Miguel Jiménez Carrizosa, Regina Ramos Hortal).
 ## Description of the dataset
 The dataset includes geometric and electrical data of coupled multilayer squared planar coils. **4635** simulations were performed using the electromagnetic FEA software *Ansys HFSS 2025 R1*. This data was used to train an Artificial Neural Network using the *Neural Net Fitting* application of *MATLAB*.
