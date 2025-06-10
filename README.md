@@ -80,7 +80,21 @@ This repository includes two versions of the dataset: a .csv file and a .mat fil
 - **In**: includes the 10 geometrical variables that represent the inputs of the ANN: (W1, W2, S1, S2, N1, N2, Dext1, Dext2, Nlay1, Nlay2).
 - **Out**: includes the 5 electrical variables that represent the outputs of the ANN: (L1, L2, R1, R2, k).
 - **Out_norm**: includes the 5 electrical variables that represent the outputs of the ANN. These variables are preprocessed to enhance the regression capabilities of the ANN: (log10(L1), log10(L2), log10(R1), log10(R2), 10.*k)
-The ANN can be created and trained using the *Neural Net Fitting* application of *MATLAB*, either by its graphical GUI or generating the training code. 
+
+For simple and fast tests, the ANN can be created and trained using the *Neural Net Fitting* application of *MATLAB*, either by its graphical GUI or generating the proper training code. More information about this tool can be found in:
+- [https://www.mathworks.com/help/deeplearning/ref/neuralnetfitting-app.html](https://www.mathworks.com/help/deeplearning/ref/fitnet.html)
+- [https://www.mathworks.com/help/deeplearning/ref/feedforwardnet.html](https://www.mathworks.com/help/deeplearning/ref/neuralnetfitting-app.html)
 
 ## Additional information
-More information about how to properly train the ANN and adjust their hyperparameters can be found in the article **Neural Network-Based Design of Wireless Power Transfer Systems for Implantable Medical Devices** (Álvaro Rodríguez Fuentes, Miguel Jiménez Carrizosa, Regina Ramos Hortal).
+More information about how to properly train the ANN and adjust their hyperparameters can be found in the article **Neural Network-Based Design of Wireless Power Transfer Systems for Implantable Medical Devices** (Álvaro Rodríguez Fuentes, Miguel Jiménez Carrizosa, Regina Ramos Hortal). 
+
+## Credits
+If you use this dataset, please consider the proper citation of the article:
+
+[1] A. Rodriguez-Fuentes, M. Jimenez and R. Ramos, "Neural Network-Based Design of Wireless Power Transfer Systems for Implantable Medical Devices," in IEEE Transactions on Power Electronics, Jun. 2025.
+
+## Author
+- Name: Álvaro Rodríguez Fuentes
+- Affiliation: Centro de Electrónica Industrial, Universidad Politécnica de Madrid
+- Email: alvaro.rofuentes@upm.es
+
