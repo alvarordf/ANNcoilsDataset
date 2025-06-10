@@ -6,7 +6,7 @@ The file includes:
 ### Simulation inputs: geometry
 The coupled coils of the simulations are defined by their geometry. Thus, the inputs of the simulations are included in columns 1 to 16. These variables are represented in the following figure:
 
-![CoilANN2](https://github.com/user-attachments/assets/741e52e5-c288-45bc-a9aa-6686271e33e4)
+![453157554-741e52e5-c288-45bc-a9aa-6686271e33e4](https://github.com/user-attachments/assets/c710c017-5b27-48a2-9ec6-d08d244066cd)
 
 
 1. **Freq (MHz)**: operating frequency (fixed at 6.78 MHz)
@@ -37,7 +37,7 @@ $\mathbf{U} =\mathbf{Z}\cdot\mathbf{I}$;
 
 Their complex values are included in columns 17-20. From the impedance matrix (Z-matrix), the electrical variables of the inductive link are extracted (columns 20-28):
 
-![Pasted image 20250609195310](https://github.com/user-attachments/assets/dfa10250-0cd1-483e-9d66-bcfa9cac12d0)
+![453157722-dfa10250-0cd1-483e-9d66-bcfa9cac12d0](https://github.com/user-attachments/assets/db836db7-1804-4b2e-9573-8cabe16fe411)
 
 20. **L1 (uH)**: Self inductance of primary coil, in uH.
 
